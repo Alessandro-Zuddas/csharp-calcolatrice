@@ -50,65 +50,33 @@ namespace csharp_calcolatrice
 
         public static int MinInt(int num1, int num2)
         {
-            if(num1 < num2)
-            {
-                return num1;
-            }
-            else if(num2 < num1)
-            {
-                return num2;
-            }
-            else
-            {
-                return num1;
-            }
+            return Math.Min(num1, num2);
         }
 
         public static double MinDouble(double num1, double num2)
         {
-            if (num1 < num2)
-            {
-                return num1;
-            }
-            else if (num2 < num1)
-            {
-                return num2;
-            }
-            else
-            {
-                return num1;
-            }
+            return Math.Min(num1, num2);
         }
 
         public static int MaxInt(int num1, int num2)
         {
-            if (num1 > num2)
-            {
-                return num1;
-            }
-            else if (num2 > num1)
-            {
-                return num2;
-            }
-            else
-            {
-                return num1;
-            }
+            return Math.Max(num1, num2);
         }
 
         public static double MaxDouble(double num1, double num2)
         {
-            if (num1 > num2)
+            return Math.Max(num1, num2);
+        }
+
+        public static int ElevaPotenza(int numero, int esponente)
+        {
+            if(numero == 0 || esponente == 0)
             {
-                return num1;
-            }
-            else if (num2 > num1)
-            {
-                return num2;
+                return 1;
             }
             else
             {
-                return num1;
+                 return (int)Math.Pow(numero, esponente);
             }
         }
     }

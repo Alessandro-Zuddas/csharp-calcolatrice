@@ -56,3 +56,7 @@ Console.WriteLine($"Il numero massimo tra {a} e {b} è: " + c);
 //Più grande dei due numeri double
 c2 = CalcoliHelper.MaxDouble(a2, b2);
 Console.WriteLine($"Il numero massimo tra {a2} e {b2} è: " + c2);
+
+//Eleva un numero a potenza
+c = CalcoliHelper.ElevaPotenza(a, b);
+Console.WriteLine($"{a} elevato {b} è uguale a: " + c);
