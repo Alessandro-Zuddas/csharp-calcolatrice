@@ -8,62 +8,62 @@ namespace csharp_calcolatrice
 {
     public static class CalcoliHelper
     {
-        public static int SommaInt(int num1, int num2)
+        public static int Somma(int num1, int num2)
         {
             return num1 + num2;
         }
 
-        public static double SommaDouble(double num1, double num2)
+        public static double Somma(double num1, double num2)
         {
             return num1 + num2;
         }
 
-        public static int DiffInt(int num1, int num2)
+        public static int Differenza(int num1, int num2)
         {
             return num1 - num2;
         }
 
-        public static double DiffDouble(double num1, double num2)
+        public static double Differenza(double num1, double num2)
         {
             return num1 - num2;
         }
 
-        public static int MoltiInt(int num1, int num2)
+        public static int Moltiplicazione(int num1, int num2)
         {
             return num1 * num2;
         }
 
-        public static double MoltiDouble(double num1, double num2)
+        public static double Moltiplicazione(double num1, double num2)
         {
             return num1 * num2;
         }
 
-        public static int AssolutoInt(int num)
+        public static int Assoluto(int num)
         {
             return Math.Abs(num);
         }
 
-        public static double AssolutoDouble(double num)
+        public static double Assoluto(double num)
         {
             return Math.Abs(num);
         }
 
-        public static int MinInt(int num1, int num2)
+        public static int Minimo(int num1, int num2)
         {
             return Math.Min(num1, num2);
         }
 
-        public static double MinDouble(double num1, double num2)
+        public static double Minimo(double num1, double num2)
         {
             return Math.Min(num1, num2);
         }
 
-        public static int MaxInt(int num1, int num2)
+        public static int Massimo(int num1, int num2)
         {
             return Math.Max(num1, num2);
         }
 
-        public static double MaxDouble(double num1, double num2)
+        public static double Massimo(double num1, double num2)
         {
             return Math.Max(num1, num2);
         }
